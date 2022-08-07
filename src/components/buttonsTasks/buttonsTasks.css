@@ -1,0 +1,53 @@
+.listItem_section_taskButtonsContainer {
+	display: flex;
+	flex-flow: nowrap row;
+	align-items: center;
+}
+
+.listItem_section_taskButtons,
+.listItem_section_taskButtons_active {
+	background-color: transparent;
+	font: normal 18px time;
+	text-shadow: .5px .5px 1px lime, 0 0 3px black;;
+	color: white;
+	padding: 5px 15px;
+	width: auto;
+
+	outline: none;
+
+	transition: color .25s;
+}
+.listItem_section_taskButtons_active {
+	color:  rgb(200 200 100);
+}
+
+.listItem_section_taskButtons:hover {
+	color: lime;
+}
+	
+.listItem_section_taskButtons span {
+	position: relative;
+}
+
+.listItem_section_taskButtons_active:first-of-type,
+.listItem_section_taskButtons:first-of-type {
+	border-radius: 10px 0px 0 10px ;
+}
+
+.listItem_section_taskButtons_active:last-of-type,
+.listItem_section_taskButtons:last-of-type {
+	border-radius: 0 10px 10px 0;
+
+}
+
+.listItem_section_taskButtons:active span {
+	top: 2px;
+	left:  2px;
+}
+
+@media (max-width: 600px) {
+	.listItem_section_taskButtonsContainer {
+
+		align-self: end;
+	}
+}

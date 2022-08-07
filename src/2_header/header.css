@@ -1,0 +1,11 @@
+.listItem_header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.listItem_header_head {
+	color: white;
+	font: bold 25px Time;
+	text-shadow: .5px .5px 1px lime, 1px 1px 1px yellow, 0 0 3px black;
+}

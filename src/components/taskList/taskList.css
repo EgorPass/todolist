@@ -1,0 +1,17 @@
+.listItem_section_list {
+		padding-left: 7px;
+		margin-bottom: 10px;
+		border-radius: 20px;
+		background-image: linear-gradient(270deg, transparent, rgba(20, 20, 20, .88));
+		display: flex;
+		justify-content: space-between;
+		word-break: break-all;
+}
+
+@media (max-width: 600px) {
+	.listItem_section_list {
+		flex-flow: wrap column;
+		align-items: start;
+		justify-content: start;
+	}
+}

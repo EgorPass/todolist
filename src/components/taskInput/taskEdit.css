@@ -1,0 +1,16 @@
+.listItem_section_taskEdit {
+
+	margin: 0 0 0 28px;
+	background-color: transparent;
+	outline: none;
+	border:  none;
+	font: normal 16px Times;
+	color: white;
+	width: auto;
+}
+
+@media (max-width: 600px) {
+	.listItem_section_taskEdit {
+		padding: 9px 0 0 2px;
+	}
+}

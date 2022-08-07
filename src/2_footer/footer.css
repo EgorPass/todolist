@@ -1,0 +1,20 @@
+.listItem_footer {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.listItem_footer_taskLeft {
+	color: white;
+	font: 16px Time;
+	text-shadow: .3px .3px .7px lime, .6px .6px 1px yellow, 0 0 3px black;
+}
+
+@media (max-width: 600px) {
+	.listItem_footer {
+		flex-flow: wrap column;
+		align-items: center;
+		justify-content: center;
+	}
+}
